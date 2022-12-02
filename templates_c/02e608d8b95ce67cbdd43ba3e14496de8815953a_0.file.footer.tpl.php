@@ -1,4 +1,27 @@
-<footer>
+<?php
+/* Smarty version 4.2.1, created on 2022-12-02 22:23:07
+  from 'C:\xampp\htdocs\pagina indumentaria\templates\footer.tpl' */
+
+/* @var Smarty_Internal_Template $_smarty_tpl */
+if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
+  'version' => '4.2.1',
+  'unifunc' => 'content_638a6cbbd4b278_54028296',
+  'has_nocache_code' => false,
+  'file_dependency' => 
+  array (
+    '02e608d8b95ce67cbdd43ba3e14496de8815953a' => 
+    array (
+      0 => 'C:\\xampp\\htdocs\\pagina indumentaria\\templates\\footer.tpl',
+      1 => 1670015609,
+      2 => 'file',
+    ),
+  ),
+  'includes' => 
+  array (
+  ),
+),false)) {
+function content_638a6cbbd4b278_54028296 (Smarty_Internal_Template $_smarty_tpl) {
+?><footer>
     <div class="footer_sec">
         <div>
             <h2> SHOP </h2>
@@ -31,4 +54,5 @@
             </ul>
         </div>
     </div>
-</footer>
+</footer><?php }
+}

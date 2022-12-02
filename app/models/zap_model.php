@@ -15,7 +15,7 @@ class  zapModel{
         return $shoes;
     }
 
-    public function getZapatilla_byID($id){
+    public function getZapatilla_byID_m($id){
         $query = $this->db->prepare('SELECT * FROM zapatillas WHERE id = ?');
         $query->execute([$id]);
         $zapatilla = $query->fetch(PDO::FETCH_OBJ);
